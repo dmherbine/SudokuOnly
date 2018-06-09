@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5502829C1AD9F70B00A68219 /* PuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502829B1AD9F70B00A68219 /* PuzzleModel.swift */; };
+		5502829D1AD9F70B00A68219 /* PuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502829B1AD9F70B00A68219 /* PuzzleModel.swift */; };
+		550282A21ADA236B00A68219 /* CVControllerNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502829E1ADA211600A68219 /* CVControllerNumberPad.swift */; };
+		550282A71ADCAC1C00A68219 /* CVControllerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550282A31ADC8C8C00A68219 /* CVControllerHeader.swift */; };
+		5505C2B41B58A22E00F6E33E /* PuzzlePermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505C2B31B58A22E00F6E33E /* PuzzlePermutations.swift */; };
+		5505C2B51B58A22E00F6E33E /* PuzzlePermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505C2B31B58A22E00F6E33E /* PuzzlePermutations.swift */; };
+		5511C8241D24A74100EBC84E /* SavedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511C8231D24A74100EBC84E /* SavedGame.swift */; };
+		5511C8251D24A74100EBC84E /* SavedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511C8231D24A74100EBC84E /* SavedGame.swift */; };
+		551676DD1D5C1CBE008B4765 /* CVControllerGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558834AF1CDC234600FE11FC /* CVControllerGesture.swift */; };
+		551676DE1D5C1CF5008B4765 /* CVControllerGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558834AF1CDC234600FE11FC /* CVControllerGesture.swift */; };
+		552074FF1ACEF221002E8554 /* CVControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA49E1AC3A00900F16E70 /* CVControllerDataSource.swift */; };
+		552075001ACEF385002E8554 /* GridSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6E501AC6FB3A007EE178 /* GridSize.swift */; };
+		5531A1FD1D4ADAD4008939CC /* PersistFavGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531A1FC1D4ADAD4008939CC /* PersistFavGames.swift */; };
+		5531A1FE1D4ADAD4008939CC /* PersistFavGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531A1FC1D4ADAD4008939CC /* PersistFavGames.swift */; };
+		5535B5031CCD4A6300B18C4E /* HelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535B5021CCD4A6300B18C4E /* HelpTests.swift */; };
+		5536607B1DA1475B00BB6AD4 /* UniqueRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536607A1DA1475B00BB6AD4 /* UniqueRectangles.swift */; };
+		554FC57D1B213C12005D65F1 /* UtilityFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554FC57C1B213C12005D65F1 /* UtilityFuncs.swift */; };
+		554FC57E1B213C12005D65F1 /* UtilityFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554FC57C1B213C12005D65F1 /* UtilityFuncs.swift */; };
+		554FC5801B213CF0005D65F1 /* UtilityFuncsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554FC57F1B213CF0005D65F1 /* UtilityFuncsTests.swift */; };
+		555F00561B88DF1600E8B41A /* PuzzlePermutationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F00551B88DF1600E8B41A /* PuzzlePermutationsTests.swift */; };
+		555F58E81D43D025004DEDB8 /* FavGamesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F58E71D43D025004DEDB8 /* FavGamesManager.swift */; };
+		555F58E91D43D0BF004DEDB8 /* FavGamesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F58E71D43D025004DEDB8 /* FavGamesManager.swift */; };
+		556288561B7B0425003A5308 /* PuzzleQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556288551B7B0425003A5308 /* PuzzleQueue.swift */; };
+		556288571B7B0425003A5308 /* PuzzleQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556288551B7B0425003A5308 /* PuzzleQueue.swift */; };
+		558CA47D1AC39E0F00F16E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA47C1AC39E0F00F16E70 /* AppDelegate.swift */; };
+		558CA4841AC39E0F00F16E70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558CA4831AC39E0F00F16E70 /* Images.xcassets */; };
+		558CA4871AC39E0F00F16E70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558CA4851AC39E0F00F16E70 /* LaunchScreen.xib */; };
+		558CA4931AC39E0F00F16E70 /* SudokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA4921AC39E0F00F16E70 /* SudokuTests.swift */; };
+		558CA4A21AC3A00900F16E70 /* CVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA49C1AC3A00900F16E70 /* CVCell.swift */; };
+		558CA4A31AC3A00900F16E70 /* CVControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA49D1AC3A00900F16E70 /* CVControllerMain.swift */; };
+		558CA4A41AC3A00900F16E70 /* CVControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA49E1AC3A00900F16E70 /* CVControllerDataSource.swift */; };
+		558CA4A61AC3A00900F16E70 /* CRVFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA4A01AC3A00900F16E70 /* CRVFooter.swift */; };
+		558CA4A91AC3A05800F16E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558CA4A81AC3A05800F16E70 /* Main.storyboard */; };
+		558CA4AC1AC3A20E00F16E70 /* CRVHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA4AA1AC3A20E00F16E70 /* CRVHeader.swift */; };
+		558CA4AF1AC3A43200F16E70 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA4AE1AC3A43200F16E70 /* GameModel.swift */; };
+		558D673D1CA787EA00584F62 /* Tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D673C1CA787EA00584F62 /* Tuples.swift */; };
+		558D673E1CA787EA00584F62 /* Tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D673C1CA787EA00584F62 /* Tuples.swift */; };
+		559131CC1AE1EA3B008116CD /* GameStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559131CB1AE1EA3B008116CD /* GameStack.swift */; };
+		559131CD1AE1EA3B008116CD /* GameStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559131CB1AE1EA3B008116CD /* GameStack.swift */; };
+		559131D71AEB2429008116CD /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559131D61AEB2429008116CD /* PopAnimator.swift */; };
+		559131D81AEB2429008116CD /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559131D61AEB2429008116CD /* PopAnimator.swift */; };
+		559131DD1AEB3BCC008116CD /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559131DC1AEB3BCC008116CD /* PopViewController.swift */; };
+		559131DE1AEB3BCC008116CD /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559131DC1AEB3BCC008116CD /* PopViewController.swift */; };
+		55CB53E71B6C7AD90008E1A3 /* PuzzleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB53E61B6C7AD90008E1A3 /* PuzzleGenerator.swift */; };
+		55CB53E81B6C7AD90008E1A3 /* PuzzleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB53E61B6C7AD90008E1A3 /* PuzzleGenerator.swift */; };
+		55CB53EA1B6C7C610008E1A3 /* PuzzleGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB53E91B6C7C610008E1A3 /* PuzzleGeneratorTests.swift */; };
+		55CD31D51AFEF7D60094A08D /* PuzzleLets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD31D41AFEF7D60094A08D /* PuzzleLets.swift */; };
+		55CD31D61AFEF7D60094A08D /* PuzzleLets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD31D41AFEF7D60094A08D /* PuzzleLets.swift */; };
+		55D1C83D1DA9E18000C40B3A /* UniqueRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536607A1DA1475B00BB6AD4 /* UniqueRectangles.swift */; };
+		55DC61711C9F08740008219B /* SolverAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC61701C9F08740008219B /* SolverAlgorithms.swift */; };
+		55DC61721C9F08740008219B /* SolverAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC61701C9F08740008219B /* SolverAlgorithms.swift */; };
+		55DC61741C9F09910008219B /* ConstraintPropagation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC61731C9F09910008219B /* ConstraintPropagation.swift */; };
+		55DC61751C9F09910008219B /* ConstraintPropagation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC61731C9F09910008219B /* ConstraintPropagation.swift */; };
+		55DC61781C9F42600008219B /* DepthFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC61771C9F42600008219B /* DepthFirst.swift */; };
+		55DC61791C9F42600008219B /* DepthFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC61771C9F42600008219B /* DepthFirst.swift */; };
+		55DC617B1C9F458C0008219B /* SolutionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC617A1C9F458C0008219B /* SolutionsTests.swift */; };
+		55DDE78B1AE0AEF1008F9A4B /* CVControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA49D1AC3A00900F16E70 /* CVControllerMain.swift */; };
+		55DDE78D1AE0AEFC008F9A4B /* CVControllerNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502829E1ADA211600A68219 /* CVControllerNumberPad.swift */; };
+		55DDE78E1AE0AF03008F9A4B /* CVControllerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550282A31ADC8C8C00A68219 /* CVControllerHeader.swift */; };
+		55DDE78F1AE0B46D008F9A4B /* CVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA49C1AC3A00900F16E70 /* CVCell.swift */; };
+		55DDE7901AE0B474008F9A4B /* CRVHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA4AA1AC3A20E00F16E70 /* CRVHeader.swift */; };
+		55DDE7911AE0B478008F9A4B /* CRVFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA4A01AC3A00900F16E70 /* CRVFooter.swift */; };
+		55FF6E511AC6FB3A007EE178 /* GridSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6E501AC6FB3A007EE178 /* GridSize.swift */; };
+		55FF6E571AC8BDC7007EE178 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CA4AE1AC3A43200F16E70 /* GameModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		558CA48D1AC39E0F00F16E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 558CA46F1AC39E0E00F16E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558CA4761AC39E0F00F16E70;
+			remoteInfo = Sudoku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5502829B1AD9F70B00A68219 /* PuzzleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleModel.swift; sourceTree = "<group>"; };
+		5502829E1ADA211600A68219 /* CVControllerNumberPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVControllerNumberPad.swift; sourceTree = "<group>"; };
+		550282A31ADC8C8C00A68219 /* CVControllerHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVControllerHeader.swift; sourceTree = "<group>"; };
+		5505C2B31B58A22E00F6E33E /* PuzzlePermutations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzlePermutations.swift; sourceTree = "<group>"; };
+		5511C8231D24A74100EBC84E /* SavedGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedGame.swift; sourceTree = "<group>"; };
+		5531A1FC1D4ADAD4008939CC /* PersistFavGames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistFavGames.swift; sourceTree = "<group>"; };
+		5535B5021CCD4A6300B18C4E /* HelpTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpTests.swift; sourceTree = "<group>"; };
+		5536607A1DA1475B00BB6AD4 /* UniqueRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueRectangles.swift; sourceTree = "<group>"; };
+		554FC57C1B213C12005D65F1 /* UtilityFuncs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UtilityFuncs.swift; path = Sudoku/UtilityFuncs.swift; sourceTree = SOURCE_ROOT; };
+		554FC57F1B213CF0005D65F1 /* UtilityFuncsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityFuncsTests.swift; sourceTree = "<group>"; };
+		555F00551B88DF1600E8B41A /* PuzzlePermutationsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzlePermutationsTests.swift; sourceTree = "<group>"; };
+		555F58E71D43D025004DEDB8 /* FavGamesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavGamesManager.swift; sourceTree = "<group>"; };
+		556288551B7B0425003A5308 /* PuzzleQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleQueue.swift; sourceTree = "<group>"; };
+		558834AF1CDC234600FE11FC /* CVControllerGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVControllerGesture.swift; sourceTree = "<group>"; };
+		558CA4771AC39E0F00F16E70 /* SudokuOnly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokuOnly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		558CA47B1AC39E0F00F16E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558CA47C1AC39E0F00F16E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		558CA4831AC39E0F00F16E70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		558CA4861AC39E0F00F16E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		558CA48C1AC39E0F00F16E70 /* SudokuOnlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuOnlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		558CA4911AC39E0F00F16E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558CA4921AC39E0F00F16E70 /* SudokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuTests.swift; sourceTree = "<group>"; };
+		558CA49C1AC3A00900F16E70 /* CVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCell.swift; sourceTree = "<group>"; };
+		558CA49D1AC3A00900F16E70 /* CVControllerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CVControllerMain.swift; path = Sudoku/CVControllerMain.swift; sourceTree = "<group>"; };
+		558CA49E1AC3A00900F16E70 /* CVControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CVControllerDataSource.swift; path = Sudoku/CVControllerDataSource.swift; sourceTree = "<group>"; };
+		558CA4A01AC3A00900F16E70 /* CRVFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRVFooter.swift; sourceTree = "<group>"; };
+		558CA4A81AC3A05800F16E70 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		558CA4AA1AC3A20E00F16E70 /* CRVHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRVHeader.swift; sourceTree = "<group>"; };
+		558CA4AE1AC3A43200F16E70 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = SOURCE_ROOT; };
+		558D673C1CA787EA00584F62 /* Tuples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuples.swift; sourceTree = "<group>"; };
+		559131CB1AE1EA3B008116CD /* GameStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStack.swift; sourceTree = "<group>"; };
+		559131D61AEB2429008116CD /* PopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		559131DC1AEB3BCC008116CD /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		55CB53E61B6C7AD90008E1A3 /* PuzzleGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleGenerator.swift; sourceTree = "<group>"; };
+		55CB53E91B6C7C610008E1A3 /* PuzzleGeneratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleGeneratorTests.swift; sourceTree = "<group>"; };
+		55CD31D41AFEF7D60094A08D /* PuzzleLets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleLets.swift; sourceTree = "<group>"; };
+		55DC61701C9F08740008219B /* SolverAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverAlgorithms.swift; sourceTree = "<group>"; };
+		55DC61731C9F09910008219B /* ConstraintPropagation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPropagation.swift; sourceTree = "<group>"; };
+		55DC61771C9F42600008219B /* DepthFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthFirst.swift; sourceTree = "<group>"; };
+		55DC617A1C9F458C0008219B /* SolutionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionsTests.swift; sourceTree = "<group>"; };
+		55FF6E501AC6FB3A007EE178 /* GridSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridSize.swift; path = Models/GridSize.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558CA4741AC39E0F00F16E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558CA4891AC39E0F00F16E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558CA46E1AC39E0E00F16E70 = {
+			isa = PBXGroup;
+			children = (
+				558CA4791AC39E0F00F16E70 /* Sudoku */,
+				558CA48F1AC39E0F00F16E70 /* SudokuTests */,
+				558CA4781AC39E0F00F16E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		558CA4781AC39E0F00F16E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558CA4771AC39E0F00F16E70 /* SudokuOnly.app */,
+				558CA48C1AC39E0F00F16E70 /* SudokuOnlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		558CA4791AC39E0F00F16E70 /* Sudoku */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6E541AC6FC49007EE178 /* Views */,
+				55FF6E531AC6FBC7007EE178 /* Controllers */,
+				55FF6E521AC6FB70007EE178 /* Models */,
+				55DC61761C9F09C90008219B /* Solutions */,
+				558CA47A1AC39E0F00F16E70 /* Supporting Files */,
+			);
+			path = Sudoku;
+			sourceTree = "<group>";
+		};
+		558CA47A1AC39E0F00F16E70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5511C8231D24A74100EBC84E /* SavedGame.swift */,
+				5531A1FC1D4ADAD4008939CC /* PersistFavGames.swift */,
+				554FC57C1B213C12005D65F1 /* UtilityFuncs.swift */,
+				558CA4851AC39E0F00F16E70 /* LaunchScreen.xib */,
+				558CA4831AC39E0F00F16E70 /* Images.xcassets */,
+				558CA47C1AC39E0F00F16E70 /* AppDelegate.swift */,
+				558CA47B1AC39E0F00F16E70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		558CA48F1AC39E0F00F16E70 /* SudokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				558CA4921AC39E0F00F16E70 /* SudokuTests.swift */,
+				5535B5021CCD4A6300B18C4E /* HelpTests.swift */,
+				55DC617A1C9F458C0008219B /* SolutionsTests.swift */,
+				555F00551B88DF1600E8B41A /* PuzzlePermutationsTests.swift */,
+				55CB53E91B6C7C610008E1A3 /* PuzzleGeneratorTests.swift */,
+				554FC57F1B213CF0005D65F1 /* UtilityFuncsTests.swift */,
+				558CA4901AC39E0F00F16E70 /* Supporting Files */,
+			);
+			path = SudokuTests;
+			sourceTree = "<group>";
+		};
+		558CA4901AC39E0F00F16E70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				558CA4911AC39E0F00F16E70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55DC61761C9F09C90008219B /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				55DC61701C9F08740008219B /* SolverAlgorithms.swift */,
+				55DC61731C9F09910008219B /* ConstraintPropagation.swift */,
+				558D673C1CA787EA00584F62 /* Tuples.swift */,
+				5536607A1DA1475B00BB6AD4 /* UniqueRectangles.swift */,
+				55DC61771C9F42600008219B /* DepthFirst.swift */,
+			);
+			name = Solutions;
+			sourceTree = "<group>";
+		};
+		55FF6E521AC6FB70007EE178 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55FF6E501AC6FB3A007EE178 /* GridSize.swift */,
+				558CA4AE1AC3A43200F16E70 /* GameModel.swift */,
+				559131CB1AE1EA3B008116CD /* GameStack.swift */,
+				5502829B1AD9F70B00A68219 /* PuzzleModel.swift */,
+				5505C2B31B58A22E00F6E33E /* PuzzlePermutations.swift */,
+				55CB53E61B6C7AD90008E1A3 /* PuzzleGenerator.swift */,
+				55CD31D41AFEF7D60094A08D /* PuzzleLets.swift */,
+				556288551B7B0425003A5308 /* PuzzleQueue.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		55FF6E531AC6FBC7007EE178 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				558CA49D1AC3A00900F16E70 /* CVControllerMain.swift */,
+				5502829E1ADA211600A68219 /* CVControllerNumberPad.swift */,
+				558834AF1CDC234600FE11FC /* CVControllerGesture.swift */,
+				558CA49E1AC3A00900F16E70 /* CVControllerDataSource.swift */,
+				559131DC1AEB3BCC008116CD /* PopViewController.swift */,
+				550282A31ADC8C8C00A68219 /* CVControllerHeader.swift */,
+				555F58E71D43D025004DEDB8 /* FavGamesManager.swift */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		55FF6E541AC6FC49007EE178 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				558CA4A81AC3A05800F16E70 /* Main.storyboard */,
+				559131D61AEB2429008116CD /* PopAnimator.swift */,
+				558CA49C1AC3A00900F16E70 /* CVCell.swift */,
+				558CA4AA1AC3A20E00F16E70 /* CRVHeader.swift */,
+				558CA4A01AC3A00900F16E70 /* CRVFooter.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		558CA4761AC39E0F00F16E70 /* SudokuOnly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558CA4961AC39E0F00F16E70 /* Build configuration list for PBXNativeTarget "SudokuOnly" */;
+			buildPhases = (
+				558CA4731AC39E0F00F16E70 /* Sources */,
+				558CA4741AC39E0F00F16E70 /* Frameworks */,
+				558CA4751AC39E0F00F16E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudokuOnly;
+			productName = Sudoku;
+			productReference = 558CA4771AC39E0F00F16E70 /* SudokuOnly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		558CA48B1AC39E0F00F16E70 /* SudokuOnlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558CA4991AC39E0F00F16E70 /* Build configuration list for PBXNativeTarget "SudokuOnlyTests" */;
+			buildPhases = (
+				558CA4881AC39E0F00F16E70 /* Sources */,
+				558CA4891AC39E0F00F16E70 /* Frameworks */,
+				558CA48A1AC39E0F00F16E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558CA48E1AC39E0F00F16E70 /* PBXTargetDependency */,
+			);
+			name = SudokuOnlyTests;
+			productName = SudokuTests;
+			productReference = 558CA48C1AC39E0F00F16E70 /* SudokuOnlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558CA46F1AC39E0E00F16E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "dave herbine";
+				TargetAttributes = {
+					558CA4761AC39E0F00F16E70 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = HF2XTB32H9;
+						LastSwiftMigration = 0900;
+					};
+					558CA48B1AC39E0F00F16E70 = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = 558CA4761AC39E0F00F16E70;
+					};
+				};
+			};
+			buildConfigurationList = 558CA4721AC39E0E00F16E70 /* Build configuration list for PBXProject "SudokuOnly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 558CA46E1AC39E0E00F16E70;
+			productRefGroup = 558CA4781AC39E0F00F16E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558CA4761AC39E0F00F16E70 /* SudokuOnly */,
+				558CA48B1AC39E0F00F16E70 /* SudokuOnlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		558CA4751AC39E0F00F16E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558CA4871AC39E0F00F16E70 /* LaunchScreen.xib in Resources */,
+				558CA4841AC39E0F00F16E70 /* Images.xcassets in Resources */,
+				558CA4A91AC3A05800F16E70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558CA48A1AC39E0F00F16E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558CA4731AC39E0F00F16E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551676DD1D5C1CBE008B4765 /* CVControllerGesture.swift in Sources */,
+				55DC61781C9F42600008219B /* DepthFirst.swift in Sources */,
+				558D673D1CA787EA00584F62 /* Tuples.swift in Sources */,
+				5502829C1AD9F70B00A68219 /* PuzzleModel.swift in Sources */,
+				550282A71ADCAC1C00A68219 /* CVControllerHeader.swift in Sources */,
+				554FC57D1B213C12005D65F1 /* UtilityFuncs.swift in Sources */,
+				556288561B7B0425003A5308 /* PuzzleQueue.swift in Sources */,
+				55FF6E511AC6FB3A007EE178 /* GridSize.swift in Sources */,
+				558CA4A31AC3A00900F16E70 /* CVControllerMain.swift in Sources */,
+				5536607B1DA1475B00BB6AD4 /* UniqueRectangles.swift in Sources */,
+				559131CC1AE1EA3B008116CD /* GameStack.swift in Sources */,
+				558CA4A61AC3A00900F16E70 /* CRVFooter.swift in Sources */,
+				55DC61711C9F08740008219B /* SolverAlgorithms.swift in Sources */,
+				5511C8241D24A74100EBC84E /* SavedGame.swift in Sources */,
+				558CA4A41AC3A00900F16E70 /* CVControllerDataSource.swift in Sources */,
+				55DC61741C9F09910008219B /* ConstraintPropagation.swift in Sources */,
+				5531A1FD1D4ADAD4008939CC /* PersistFavGames.swift in Sources */,
+				550282A21ADA236B00A68219 /* CVControllerNumberPad.swift in Sources */,
+				558CA4AF1AC3A43200F16E70 /* GameModel.swift in Sources */,
+				559131D71AEB2429008116CD /* PopAnimator.swift in Sources */,
+				55CB53E71B6C7AD90008E1A3 /* PuzzleGenerator.swift in Sources */,
+				5505C2B41B58A22E00F6E33E /* PuzzlePermutations.swift in Sources */,
+				558CA4A21AC3A00900F16E70 /* CVCell.swift in Sources */,
+				558CA47D1AC39E0F00F16E70 /* AppDelegate.swift in Sources */,
+				55CD31D51AFEF7D60094A08D /* PuzzleLets.swift in Sources */,
+				555F58E81D43D025004DEDB8 /* FavGamesManager.swift in Sources */,
+				558CA4AC1AC3A20E00F16E70 /* CRVHeader.swift in Sources */,
+				559131DD1AEB3BCC008116CD /* PopViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558CA4881AC39E0F00F16E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551676DE1D5C1CF5008B4765 /* CVControllerGesture.swift in Sources */,
+				552074FF1ACEF221002E8554 /* CVControllerDataSource.swift in Sources */,
+				5535B5031CCD4A6300B18C4E /* HelpTests.swift in Sources */,
+				55CB53EA1B6C7C610008E1A3 /* PuzzleGeneratorTests.swift in Sources */,
+				55D1C83D1DA9E18000C40B3A /* UniqueRectangles.swift in Sources */,
+				559131DE1AEB3BCC008116CD /* PopViewController.swift in Sources */,
+				5531A1FE1D4ADAD4008939CC /* PersistFavGames.swift in Sources */,
+				55DC61721C9F08740008219B /* SolverAlgorithms.swift in Sources */,
+				554FC57E1B213C12005D65F1 /* UtilityFuncs.swift in Sources */,
+				5502829D1AD9F70B00A68219 /* PuzzleModel.swift in Sources */,
+				55DDE7901AE0B474008F9A4B /* CRVHeader.swift in Sources */,
+				55FF6E571AC8BDC7007EE178 /* GameModel.swift in Sources */,
+				555F00561B88DF1600E8B41A /* PuzzlePermutationsTests.swift in Sources */,
+				559131D81AEB2429008116CD /* PopAnimator.swift in Sources */,
+				5505C2B51B58A22E00F6E33E /* PuzzlePermutations.swift in Sources */,
+				55DC61791C9F42600008219B /* DepthFirst.swift in Sources */,
+				55DDE78E1AE0AF03008F9A4B /* CVControllerHeader.swift in Sources */,
+				55CB53E81B6C7AD90008E1A3 /* PuzzleGenerator.swift in Sources */,
+				555F58E91D43D0BF004DEDB8 /* FavGamesManager.swift in Sources */,
+				55DDE7911AE0B478008F9A4B /* CRVFooter.swift in Sources */,
+				5511C8251D24A74100EBC84E /* SavedGame.swift in Sources */,
+				55DDE78B1AE0AEF1008F9A4B /* CVControllerMain.swift in Sources */,
+				559131CD1AE1EA3B008116CD /* GameStack.swift in Sources */,
+				554FC5801B213CF0005D65F1 /* UtilityFuncsTests.swift in Sources */,
+				558CA4931AC39E0F00F16E70 /* SudokuTests.swift in Sources */,
+				55DDE78F1AE0B46D008F9A4B /* CVCell.swift in Sources */,
+				55DC61751C9F09910008219B /* ConstraintPropagation.swift in Sources */,
+				55CD31D61AFEF7D60094A08D /* PuzzleLets.swift in Sources */,
+				552075001ACEF385002E8554 /* GridSize.swift in Sources */,
+				55DDE78D1AE0AEFC008F9A4B /* CVControllerNumberPad.swift in Sources */,
+				55DC617B1C9F458C0008219B /* SolutionsTests.swift in Sources */,
+				556288571B7B0425003A5308 /* PuzzleQueue.swift in Sources */,
+				558D673E1CA787EA00584F62 /* Tuples.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		558CA48E1AC39E0F00F16E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558CA4761AC39E0F00F16E70 /* SudokuOnly */;
+			targetProxy = 558CA48D1AC39E0F00F16E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		558CA4851AC39E0F00F16E70 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558CA4861AC39E0F00F16E70 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		558CA4941AC39E0F00F16E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		558CA4951AC39E0F00F16E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		558CA4971AC39E0F00F16E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/mopub-ios-sdk\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+				);
+				INFOPLIST_FILE = Sudoku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.act3odyssey.SudokuOnly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		558CA4981AC39E0F00F16E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/mopub-ios-sdk\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+				);
+				INFOPLIST_FILE = Sudoku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.act3odyssey.SudokuOnly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		558CA49A1AC39E0F00F16E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/mopub-ios-sdk\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SudokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.act3odyssey.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudokuOnly.app/SudokuOnly";
+			};
+			name = Debug;
+		};
+		558CA49B1AC39E0F00F16E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/mopub-ios-sdk\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+				);
+				INFOPLIST_FILE = SudokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.act3odyssey.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudokuOnly.app/SudokuOnly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		558CA4721AC39E0E00F16E70 /* Build configuration list for PBXProject "SudokuOnly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558CA4941AC39E0F00F16E70 /* Debug */,
+				558CA4951AC39E0F00F16E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558CA4961AC39E0F00F16E70 /* Build configuration list for PBXNativeTarget "SudokuOnly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558CA4971AC39E0F00F16E70 /* Debug */,
+				558CA4981AC39E0F00F16E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558CA4991AC39E0F00F16E70 /* Build configuration list for PBXNativeTarget "SudokuOnlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558CA49A1AC39E0F00F16E70 /* Debug */,
+				558CA49B1AC39E0F00F16E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 558CA46F1AC39E0E00F16E70 /* Project object */;
+}
