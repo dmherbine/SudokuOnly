@@ -15,9 +15,9 @@ class CVCell: UICollectionViewCell {
     
     var gradientLayer: CAGradientLayer?
     
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//        self.isSelected = false
-//    }
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.isSelected = false
+    }
      
 }
